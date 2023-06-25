@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo.png";
+import logo_round from "../assets/images/logo_round.png";
 import "../styles/about.css";
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-content">
         <h2 className="about-heading">About Us</h2>
         <div className="about-info">
-          <img src={logo} alt="Company Logo" className="about-image" />
+          <img src={logo_round} alt="Company Logo" className="about-image" />
           <p className="about-description">
             Welcome to our tourism and travel website! We are passionate about
             helping you explore new destinations, create memorable experiences,
