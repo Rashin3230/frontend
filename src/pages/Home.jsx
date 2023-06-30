@@ -40,8 +40,7 @@ const Home = () => {
                   our Tours and Travels agency is here to make your travel
                   dreams a reality. We believe that every journey is an
                   opportunity for adventure, growth, and creating lifelong
-                  memories. With us, you'll experience the true essence of
-                  travel, where every moment becomes a story worth sharing.
+                  memories.
                 </p>
               </div>
             </Col>
