@@ -15,12 +15,12 @@ const servicesData = [
   {
     imgUrl: guideImg,
     title: "Best Tour Guide",
-    desc: "Describe it",
+    desc: "Leave the logistics to us! We take care of all the nitty-gritty details, including flight bookings, hotel reservations, visa assistance, and transportation arrangements",
   },
   {
     imgUrl: CustomizationImg,
-    title: "Customization",
-    desc: "Describe it",
+    title: "Customer Support",
+    desc: "Leave the logistics to us! We take care of all the nitty-gritty details, including flight bookings, hotel reservations, visa assistance, and transportation arrangements",
   },
 ];
 
