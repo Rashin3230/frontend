@@ -34,9 +34,14 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                  visualstudiogallery.msdn.microsoft.com/… Download this and alt
-                  + D will duplicate your selection or if nothing is highlighted
-                  it will duplicate the entire line.
+                  Embark on a Journey of a Lifetime with Our Tours and Travels!
+                  
+                  Are you ready to discover the world? Look no further, because
+                  our Tours and Travels agency is here to make your travel
+                  dreams a reality. We believe that every journey is an
+                  opportunity for adventure, growth, and creating lifelong
+                  memories. With us, you'll experience the true essence of
+                  travel, where every moment becomes a story worth sharing.
                 </p>
               </div>
             </Col>
@@ -153,18 +158,18 @@ const Home = () => {
       <section>
         <Container>
           <Row>
-            <Col lg='12'>
-              <Subtitle subtitle={'Fans Love'}/>
+            <Col lg="12">
+              <Subtitle subtitle={"Fans Love"} />
               <h2 className="testimonial__title">What our fans say about us</h2>
             </Col>
-            <Col lg='12'>
-              <Testimonials/>
+            <Col lg="12">
+              <Testimonials />
             </Col>
           </Row>
         </Container>
       </section>
       {/* ================= testimonial section end ======================*/}
-      <Newsletter/>
+      <Newsletter />
     </>
   );
 };

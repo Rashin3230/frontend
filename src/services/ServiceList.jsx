@@ -1,40 +1,39 @@
-import React from 'react'
-import ServiceCard from './ServiceCard'
-import { Col } from 'reactstrap'
+import React from "react";
+import ServiceCard from "./ServiceCard";
+import { Col } from "reactstrap";
 
-import weatherImg from '../assets/images/weather.png'
-import guideImg from '../assets/images/guide.png'
-import CustomizationImg from '../assets/images/customization.png'
+import weatherImg from "../assets/images/weather.png";
+import guideImg from "../assets/images/guide.png";
+import CustomizationImg from "../assets/images/customization.png";
 
 const servicesData = [
-    {
-        imgUrl: weatherImg,
-        title: "Calculate Weather",
-        desc: "Describe it"
-    },
-    {
-        imgUrl: guideImg,
-        title: "Best Tour Guide",
-        desc: "Describe it"
-    },
-    {
-        imgUrl: CustomizationImg,
-        title: "Customization",
-        desc: "Describe it"
-    }
-]
+  {
+    imgUrl: weatherImg,
+    title: "Hassle-Free Travel Arrangements",
+    desc: "Leave the logistics to us! We take care of all the nitty-gritty details, including flight bookings, hotel reservations, visa assistance, and transportation arrangements",
+  },
+  {
+    imgUrl: guideImg,
+    title: "Best Tour Guide",
+    desc: "Describe it",
+  },
+  {
+    imgUrl: CustomizationImg,
+    title: "Customization",
+    desc: "Describe it",
+  },
+];
 
 const ServiceList = () => {
   return (
     <>
-        {
-            servicesData.map((item,index)=> (
-            <Col lg='3' md="6" sm="12" className='mb-4' key={index}>
-                <ServiceCard item={item}/>
-            </Col>))
-        }
+      {servicesData.map((item, index) => (
+        <Col lg="3" md="6" sm="12" className="mb-4" key={index}>
+          <ServiceCard item={item} />
+        </Col>
+      ))}
     </>
-  )
-}
+  );
+};
 
-export default ServiceList
+export default ServiceList;

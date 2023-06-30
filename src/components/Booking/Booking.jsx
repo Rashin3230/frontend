@@ -59,6 +59,8 @@ const Booking = ({ tour, avgRating }) => {
       alert(err.message);
     }
   };
+  console.log(tour,"1"); // Check the value of the tour object
+
 
   return (
     <div className="booking">
